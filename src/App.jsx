@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/moival/' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/project/:id' element={<ProjectDisplay />} />
           <Route path='/experience' element={<Experience />} />
