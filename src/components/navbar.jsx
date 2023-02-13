@@ -60,7 +60,7 @@ export default function Navbar() {
         <div className='w-full flex-grow lg:flex lg:items-center lg:w-auto'>
           <div className='text-lg lg:flex-grow'>
             <Link
-              to='/'
+              to='/moivale/'
               className='block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4'
             >
               Home
