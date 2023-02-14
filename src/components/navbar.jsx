@@ -22,7 +22,8 @@ export default function Navbar() {
           const fileURL = window.URL.createObjectURL(blob);
           let alink = document.createElement('a');
           alink.href = fileURL;
-          alink.download = 'resume.3.pdf';
+          alink.download =
+            'eatmorevegetabl.github.io/moival/public/resume.3.pdf';
           alink.click();
         });
       }
