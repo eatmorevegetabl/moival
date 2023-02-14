@@ -17,7 +17,7 @@ export default function Navbar() {
 
   const downloadResume = () => {
     fetch(
-      'https://eatmorevegetabl.github.io/moival/raw/main/public/resume.3.pdf'
+      'https://github.com/eatmorevegetabl/moival/raw/main/public/resume.3.pdf'
     ).then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
