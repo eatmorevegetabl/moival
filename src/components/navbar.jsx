@@ -16,7 +16,7 @@ export default function Navbar() {
   const [openModal, setOpenModal] = useState(false);
 
   const downloadResume = () => {
-    fetch('resume.3.pdf').then((response) => {
+    fetch('eatmorevegetabl.github.io/public/resume.3.pdf').then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement('a');
