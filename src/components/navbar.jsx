@@ -16,18 +16,17 @@ export default function Navbar() {
   const [openModal, setOpenModal] = useState(false);
 
   const downloadResume = () => {
-    fetch('eatmorevegetabl.github.io/moival/raw/main/public/resume.3.pdf').then(
-      (response) => {
-        response.blob().then((blob) => {
-          const fileURL = window.URL.createObjectURL(blob);
-          let alink = document.createElement('a');
-          alink.href = fileURL;
-          alink.download =
-            'eatmorevegetabl.github.io/moival/raw/main/public/resume.3.pdf';
-          alink.click();
-        });
-      }
-    );
+    fetch(
+      'https://github.com/eatmorevegetabl/moival/raw/main/public/resume.3.pdf'
+    ).then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'resume.3.pdf';
+        alink.click();
+      });
+    });
   };
 
   return (
