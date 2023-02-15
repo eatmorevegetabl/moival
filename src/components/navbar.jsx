@@ -15,19 +15,20 @@ export default function Navbar() {
 
   const [openModal, setOpenModal] = useState(false);
 
-  const downloadResume = () => {
-    fetch(
-      'https://github.com/eatmorevegetabl/moival/raw/main/public/resume.3.pdf'
-    ).then((response) => {
-      response.blob().then((blob) => {
-        const fileURL = window.URL.createObjectURL(blob);
-        let alink = document.createElement('a');
-        alink.href = fileURL;
-        alink.download = 'resume.3.pdf';
-        alink.click();
-      });
-    });
-  };
+  // const downloadResume = () => {
+  //   <a href='resume.3.pdf' download></a>
+  // fetch(
+  //   'https://github.com/eatmorevegetabl/moival/raw/main/public/resume.3.pdf'
+  // ).then((response) => {
+  //   response.blob().then((blob) => {
+  //     const fileURL = window.URL.createObjectURL(blob);
+  //     let alink = document.createElement('a');
+  //     alink.href = fileURL;
+  //     alink.download = 'resume.3.pdf';
+  //     alink.click();
+  //   });
+  // });
+  //};
 
   return (
     <nav className='bg-teal-500 p-6 lg:flex lg:justify-between'>
@@ -88,13 +89,15 @@ export default function Navbar() {
             </Link>
           </div>
           <div>
-            <button
-              className='inline-flex items-center text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 mr-4'
-              onClick={downloadResume}
-            >
-              Resumé
-              <IoMdDownload className='text-lg ml-2' />
-            </button>
+            <a href='resume.3.pdf' download>
+              <button
+                className='inline-flex items-center text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 mr-4'
+                // onClick={downloadResume}
+              >
+                Resumé
+                <IoMdDownload className='text-lg ml-2' />
+              </button>
+            </a>
             <button
               className='inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0'
               onClick={() => {
