@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/moival/static/css/main.0991e08a.css",
-    "main.js": "/moival/static/js/main.12f290e8.js",
+    "main.js": "/moival/static/js/main.2cf50354.js",
     "static/js/787.f21c8f43.chunk.js": "/moival/static/js/787.f21c8f43.chunk.js",
     "static/media/Portrait.png": "/moival/static/media/Portrait.23eed78852e96af938cf.png",
     "static/media/weatherDashboardImage.png": "/moival/static/media/weatherDashboardImage.6ed74a2d79f86af37d15.png",
@@ -9,11 +9,11 @@
     "static/media/placeholder.jpg": "/moival/static/media/placeholder.2da37733d272e9fbdd9c.jpg",
     "index.html": "/moival/index.html",
     "main.0991e08a.css.map": "/moival/static/css/main.0991e08a.css.map",
-    "main.12f290e8.js.map": "/moival/static/js/main.12f290e8.js.map",
+    "main.2cf50354.js.map": "/moival/static/js/main.2cf50354.js.map",
     "787.f21c8f43.chunk.js.map": "/moival/static/js/787.f21c8f43.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0991e08a.css",
-    "static/js/main.12f290e8.js"
+    "static/js/main.2cf50354.js"
   ]
 }
