@@ -7,7 +7,7 @@ export default function ProjectItem({ image, name, id }) {
     <div
       className='projectItem'
       onClick={() => {
-        navigate('/moival/project/' + id);
+        navigate('/project/' + id);
       }}
     >
       <div style={{ backgroundImage: `url(${image})` }} className='bgImage' />
