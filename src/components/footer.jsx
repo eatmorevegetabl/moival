@@ -6,7 +6,7 @@ export default function Footer() {
     <div className='footer bg-gray-900 text-white'>
       <div className='socialMedia md:flex md:justify-between md:items-center sm:px-12 px-4 bg-teal-500 py-7'>
         <span className='font-semibold text-xl tracking-tight'>
-          Moisés Valerin &copy; 2023 url
+          Moisés Valerin &copy; 2023 eatmorevegetabl.github.io/moival
         </span>
         <div>
           <span className='inline-flex items-center text-2xl'>

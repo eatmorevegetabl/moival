@@ -15,21 +15,6 @@ export default function Navbar() {
 
   const [openModal, setOpenModal] = useState(false);
 
-  // const downloadResume = () => {
-  //   <a href='resume.3.pdf' download></a>
-  // fetch(
-  //   'https://github.com/eatmorevegetabl/moival/raw/main/public/resume.3.pdf'
-  // ).then((response) => {
-  //   response.blob().then((blob) => {
-  //     const fileURL = window.URL.createObjectURL(blob);
-  //     let alink = document.createElement('a');
-  //     alink.href = fileURL;
-  //     alink.download = 'resume.3.pdf';
-  //     alink.click();
-  //   });
-  // });
-  //};
-
   return (
     <nav className='bg-teal-500 p-6 lg:flex lg:justify-between'>
       <div className='flex items-center justify-between flex-wrap'>
@@ -76,13 +61,13 @@ export default function Navbar() {
               Skills
             </HashLink>
             <Link
-              to='/projects'
+              to='/moival/projects'
               className='block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4'
             >
               Projects
             </Link>
             <Link
-              to='/experience'
+              to='/moival/experience'
               className='block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4'
             >
               Experience
@@ -90,10 +75,7 @@ export default function Navbar() {
           </div>
           <div>
             <a href='resume.3.pdf' download>
-              <button
-                className='inline-flex items-center text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 mr-4'
-                // onClick={downloadResume}
-              >
+              <button className='inline-flex items-center text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 mr-4'>
                 Resumé
                 <IoMdDownload className='text-lg ml-2' />
               </button>

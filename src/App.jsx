@@ -14,9 +14,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path='/moival' element={<Home />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/project/:id' element={<ProjectDisplay />} />
-          <Route path='/experience' element={<Experience />} />
+          <Route exact path='/moival/projects' element={<Projects />} />
+          <Route path='/moival/project/:id' element={<ProjectDisplay />} />
+          <Route exact path='/moival/experience' element={<Experience />} />
         </Routes>
         <Footer />
       </Router>
