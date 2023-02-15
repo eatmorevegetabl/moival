@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/moival/static/js/pages/home.jsx/static/css/main.c19ee59b.css",
-    "main.js": "/moival/static/js/pages/home.jsx/static/js/main.d7fef63b.js",
-    "static/js/787.f21c8f43.chunk.js": "/moival/static/js/pages/home.jsx/static/js/787.f21c8f43.chunk.js",
-    "static/media/Portrait.png": "/moival/static/js/pages/home.jsx/static/media/Portrait.23eed78852e96af938cf.png",
-    "static/media/weatherDashboardImage.png": "/moival/static/js/pages/home.jsx/static/media/weatherDashboardImage.6ed74a2d79f86af37d15.png",
-    "static/media/coding-bootcamp-full-stack-developer-certificate.1.png": "/moival/static/js/pages/home.jsx/static/media/coding-bootcamp-full-stack-developer-certificate.1.5ba669ff69d7fee91f5d.png",
-    "static/media/placeholder.jpg": "/moival/static/js/pages/home.jsx/static/media/placeholder.2da37733d272e9fbdd9c.jpg",
-    "index.html": "/moival/static/js/pages/home.jsx/index.html",
-    "main.c19ee59b.css.map": "/moival/static/js/pages/home.jsx/static/css/main.c19ee59b.css.map",
-    "main.d7fef63b.js.map": "/moival/static/js/pages/home.jsx/static/js/main.d7fef63b.js.map",
-    "787.f21c8f43.chunk.js.map": "/moival/static/js/pages/home.jsx/static/js/787.f21c8f43.chunk.js.map"
+    "main.css": "/moival/static/css/main.c19ee59b.css",
+    "main.js": "/moival/static/js/main.d3ae6943.js",
+    "static/js/787.f21c8f43.chunk.js": "/moival/static/js/787.f21c8f43.chunk.js",
+    "static/media/Portrait.png": "/moival/static/media/Portrait.23eed78852e96af938cf.png",
+    "static/media/weatherDashboardImage.png": "/moival/static/media/weatherDashboardImage.6ed74a2d79f86af37d15.png",
+    "static/media/coding-bootcamp-full-stack-developer-certificate.1.png": "/moival/static/media/coding-bootcamp-full-stack-developer-certificate.1.5ba669ff69d7fee91f5d.png",
+    "static/media/placeholder.jpg": "/moival/static/media/placeholder.2da37733d272e9fbdd9c.jpg",
+    "index.html": "/moival/index.html",
+    "main.c19ee59b.css.map": "/moival/static/css/main.c19ee59b.css.map",
+    "main.d3ae6943.js.map": "/moival/static/js/main.d3ae6943.js.map",
+    "787.f21c8f43.chunk.js.map": "/moival/static/js/787.f21c8f43.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c19ee59b.css",
-    "static/js/main.d7fef63b.js"
+    "static/js/main.d3ae6943.js"
   ]
 }
