@@ -15,6 +15,15 @@ export default function Navbar() {
 
   const [openModal, setOpenModal] = useState(false);
 
+  const scrollWithOffset = (el, offset) => {
+    const elementPosition = el.offsetTop - offset;
+    window.scroll({
+      top: elementPosition,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <nav className='bg-teal-500 p-6 lg:flex lg:justify-between'>
       <div className='flex items-center justify-between flex-wrap'>
@@ -56,6 +65,7 @@ export default function Navbar() {
             <HashLink
               smooth
               to='/#skills'
+              scroll={(el) => scrollWithOffset(el, 220)}
               className='block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4'
             >
               Skills
