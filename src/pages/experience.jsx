@@ -76,12 +76,12 @@ export default function Experience() {
           icon={<MdSchool />}
         >
           <h3 className='vertical-timeline-element-title'>
-            University of Utah - Continuing Education
+            University of Utah
           </h3>
           <h4 className='vertical-timeline-element-subtitle'>
             Salt Lake City, UT
           </h4>
-          <p> 24-Week Coding Bootcamp </p>
+          <p> Certificate in Full Stack Web Development </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
