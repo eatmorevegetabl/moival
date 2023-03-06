@@ -5,7 +5,7 @@ export const ProjectList = [
   {
     name: 'Weather Dashboard',
     image: weatherDashboard,
-    skills: 'JavaScript, HTML5, CSS3',
+    skills: 'JavaScript, HTML5, CSS3, REST API, GitHub, GitHub Pages',
     link: 'https://eatmorevegetabl.github.io/weatherDashboard/',
     github: 'https://github.com/eatmorevegetabl/weatherDashboard',
   },
