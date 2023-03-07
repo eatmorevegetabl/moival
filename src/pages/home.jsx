@@ -28,10 +28,10 @@ export default function Home() {
               Full-Stack Web Developer
             </h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>
-              I recently completed a full-stack web developer program at the
-              University of Utah, and I am looking forward to putting my skills
-              to use in a professional setting. Feel welcome to contact me to
-              find out more about my services.
+              I recently earned a certificate in Full Stack web development from
+              the University of Utah, and I am looking to put my skills to use
+              in a professional setting. Feel welcome to contact me to find out
+              more about my services.
             </p>
           </div>
           <div className='text-5xl flex justify-center'>
